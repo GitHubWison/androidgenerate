@@ -4,24 +4,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class %sFragment extends Fragment {
-    private %sViewModel viewModel;
-    public static %sFragment newInstance() {
+public class TttPpkFragment extends Fragment {
+    private TttPpkViewModel viewModel;
+    public static TttPpkFragment newInstance() {
 
         Bundle args = new Bundle();
 
-        %sFragment fragment = new %sFragment();
+        TttPpkFragment fragment = new TttPpkFragment();
         fragment.setArguments(args);
         return fragment;
     }
     @Override
     public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
-        Fragment%sBinding binding = Fragment%sBinding.inflate(inflater,container,false);
+        FragmentTttPpkBinding binding = FragmentTttPpkBinding.inflate(inflater,container,false);
         binding.setViewmodel(viewModel);
         return binding.getRoot();
     }
 
-    public void setViewModel(%sViewModel viewModel) {
+    public void setViewModel(TttPpkViewModel viewModel) {
         this.viewModel = viewModel;
     }
 }

@@ -1,0 +1,2 @@
+cp output/%s/*Activity.java output/%s/*Fragment.java output/%s/*ViewModel.java %s/app/src/main/java/%s
+cp output/%s/activity_*.xml output/%s/fragment_*.xml %s/app/src/main/res/layout
